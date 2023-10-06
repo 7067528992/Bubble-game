@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(42, 138, 106);
+}
+#container-2{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(119, 162, 151);
+}
+#container-21{
+    height: 100px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(15, 54, 41);
+}
+.checkbox{
+    align-items: center;
+    gap: 20px;
+     color: white;
+    display: flex;
+}
+.checkbox h2{
+    font-weight: 400;
+}
+.box{
+    padding: 10px;
+    color: black; 
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: white;
+}
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(25, 49, 41);
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bubble:hover{
+    background-color: rgb(5, 17, 13);
+}
